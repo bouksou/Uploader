@@ -21,6 +21,7 @@
         "issues": "https://github.com/bouksou/Uploader/issues",
         "source": "https://github.com/bouksou/Uploader"
     },
+    "minimum-stability": "dev",
     "require": {
         "cakephp/cakephp": "3.0.*-dev",
         "cakephp/plugin-installer": "*",
