@@ -5,7 +5,8 @@
         "type": "vcs",
         "url": "https://github.com/bouksou/uploader"
       }
-    ],    
+    ],
+    "type": "cakephp-plugin",
     "description": "CakePHP 3 uploader",
     "keywords": ["cakephp", "uploader", "imagine"],
     "homepage": "https://github.com/bouksou/uploader",
