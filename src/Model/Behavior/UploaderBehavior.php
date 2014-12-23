@@ -61,11 +61,16 @@ class UploaderBehavior extends Behavior {
                     WWW_ROOT . $path
                 );
 
+                if (array_key_exists('sizes', $this->options)) {
+                    $sizes = $this->options['sizes'];
 
-                foreach ($this->options['sizes'] as $size) {
-                    $this->resize($id, $path, $size['width'], $size['height'], $extension);
+                    if (!empty($sizes)) {
+                        foreach ($sizes as $size) {
+                            $this->resize($id, $path, $size['width'], $size['height'], $extension);
+                        }
+                    }
                 }
-
+                
                 chmod(WWW_ROOT . $path, 0777);
 
                 $this->_table->updateAll([
