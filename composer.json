@@ -3,13 +3,13 @@
     "repositories": [
       {
         "type": "vcs",
-        "url": "https://github.com/bouksou/Uploader"
+        "url": "https://github.com/bouksou/uploader"
       }
     ],    
-    "description": "CakePHP 3 Uploader",
+    "description": "CakePHP 3 uploader",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "uploader", "imagine"],
-    "homepage": "https://github.com/bouksou/Uploader",
+    "homepage": "https://github.com/bouksou/uploader",
     "authors": [
         {
             "name": "Bouksou",
@@ -18,10 +18,9 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/bouksou/Uploader/issues",
-        "source": "https://github.com/bouksou/Uploader"
+        "issues": "https://github.com/bouksou/uploader/issues",
+        "source": "https://github.com/bouksou/uploader"
     },
-    "minimum-stability": "dev",
     "require": {
         "cakephp/cakephp": "3.0.*-dev",
         "cakephp/plugin-installer": "*",
