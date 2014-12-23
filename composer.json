@@ -1,0 +1,22 @@
+{
+    "name": "bouksou/uploader",
+    "description": "CakePHP 3 Uploader",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "uploader", "imagine"],
+    "homepage": "https://github.com/bouksou/Uploader",
+    "authors": [
+        {
+            "name": "Bouksou",
+            "homepage": "http://www.bouksou.com",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/bouksou/Uploader/issues",
+        "source": "https://github.com/bouksou/Uploader"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "imagine/imagine": "dev-master",
+    }
+}
