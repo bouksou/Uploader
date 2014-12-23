@@ -25,5 +25,26 @@
         "cakephp/cakephp": "3.0.*-dev",
         "cakephp/plugin-installer": "*",
         "imagine/imagine": "dev-master"
-    }
+    },
+    "require-dev": {
+		"cakephp/cakephp-codesniffer": "2.0.*-dev",
+		"phpunit/phpunit": "4.1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"DebugKit\\": "src",
+			"DebugKit\\Test\\Fixture\\": "tests\\Fixture"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Cake\\Test\\": "vendor/cakephp/cakephp/tests",
+			"DebugKit\\Test\\": "tests"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.2.x-dev"
+		}
+	}
 }
