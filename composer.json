@@ -25,6 +25,5 @@
         "cakephp/cakephp": "3.0.*-dev",
 	"cakephp/plugin-installer": "*",
         "imagine/imagine": "dev-master"
-    },
-    "minimum-stability": "dev"
+    }
 }
