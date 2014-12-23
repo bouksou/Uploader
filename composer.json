@@ -19,5 +19,16 @@
         "cakephp/cakephp": "3.0.*-dev",
 	"cakephp/plugin-installer": "*",
         "imagine/imagine": "dev-master"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Uploader\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Uploader\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    } 
 }
