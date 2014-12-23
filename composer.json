@@ -1,5 +1,11 @@
 {
-    "name": "bouksou/Uploader",
+    "name": "bouksou/uploader",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/bouksou/Uploader"
+      }
+    ],    
     "description": "CakePHP 3 Uploader",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "uploader", "imagine"],
