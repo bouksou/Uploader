@@ -16,7 +16,8 @@
         "source": "https://github.com/bouksou/Uploader"
     },
     "require": {
-        "php": ">=5.3.0",
+        "cakephp/cakephp": "3.0.*-dev",
+        "cakephp/plugin-installer": "*",
         "imagine/imagine": "dev-master"
     }
 }
